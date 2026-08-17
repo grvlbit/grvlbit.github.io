@@ -22,7 +22,7 @@ Um Opencode wirklich sinnvoll zu nutzen, brauchen wir einen API Key für einen
 AI-Anbieter unserer Wahl. Da wir unseren Local-AI-POC testen wollen, [erstellen wir einen API Key für GPUstack](../generating-gpustack-token/).
 
 ## Schritt 2: opencode installieren – aber sicher
-Opencode lässt sich auf [verschiedene Arten installieren](https://opencode.ai/docs/de#installation). Da ich kein Fan von `curl \| bash`-Pipes bin ([mehr dazu in einem anderen Post](TODO.md)) und npm bekanntlich ein beliebtes Ziel für Supply-Chain-Angriffe ist, empfehle ich den Docker-Weg. Wer Docker hat, kann direkt loslegen:
+Opencode lässt sich auf [verschiedene Arten installieren](https://opencode.ai/docs/de#installation). Da ich kein Fan von `curl \| bash`-Pipes bin (mehr dazu in einem anderen Post) und npm bekanntlich ein beliebtes Ziel für Supply-Chain-Angriffe ist, empfehle ich den Docker-Weg. Wer Docker hat, kann direkt loslegen:
 ```
 docker run -it --rm ghcr.io/anomalyco/opencode
 
@@ -253,4 +253,3 @@ Ab sofort reicht ein `occ` im Terminal zum starten unseres Containers – vermut
 Ergänzend kann die vorherige session mit `occ -c` wiederhergestellt oder eine spezifische Session mit `occ -s <session-id>` verbunden werden.
 
 Für alle weiteren Details zur Bedienung empfehle ich die [offizielle Dokumentation](https://opencode.ai/docs/de).
-
